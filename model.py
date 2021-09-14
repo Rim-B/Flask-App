@@ -23,3 +23,5 @@ reg = LinearRegression().fit(X_train, Y_train)
 with open('model.pkl','wb') as f:
     pickle.dump(reg,f)
     
+    
+    
